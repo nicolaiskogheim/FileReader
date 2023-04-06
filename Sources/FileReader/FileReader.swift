@@ -1,6 +1,6 @@
 import Foundation
-class FileReader {
-    static func read(fileName: String) -> String? {
+public class FileReader {
+    public static func read(fileName: String) -> String? {
         // FileManager.default is a singleton object that provides access to the file system.
         let fileManager = FileManager.default
         // URL in this context is a struct that represents the location of a file or directory.
